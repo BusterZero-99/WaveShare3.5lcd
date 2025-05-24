@@ -10,7 +10,7 @@ sudo apt upgrade
 sudo apt install tasksel
 sudo tasksel
 ```
-Then go to KDE Plasma option
+Then go to KDE Plasma option and press the "space" key
 
 ```bash
 sudo apt install lightdm
