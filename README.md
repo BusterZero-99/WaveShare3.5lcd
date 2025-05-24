@@ -2,7 +2,7 @@
 For RasPi 64 Bit Bookworm 
 # THIS ONLY WORKS IF YOU HAVE THE DEFAULT USERNAME TO BE "pi"
 
-Based on setup by Temporarily Offline
+Based on setup by Distro Reviews & Temporarily Offline
 
 ```bash
 sudo apt update
