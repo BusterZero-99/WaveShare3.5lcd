@@ -3,6 +3,25 @@ For RasPi 64 Bit Bookworm
 
 Based on setup by Temporarily Offline
 
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install tasksel
+sudo tasksel
+```
+Then go to KDE Plasma option
+
+```bash
+sudo apt install lightdm
+```
+
+Then go to System Options, then Boot/Auto Login, and select Desktop, and if prompted, sellect "ssdm", and reboot
+
+```bash
+sudo apt purge openresolv dhcpcd5
+sudo reboot now
+```
+
 ```bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
 sudo unzip ./Waveshare35b-v2.zip -d /boot/overlays
 wget https://files.waveshare.com/upload/1/1e/Rpi-fbcp.zip
