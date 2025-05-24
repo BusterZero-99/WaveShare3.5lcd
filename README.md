@@ -14,6 +14,7 @@ Then go to KDE Plasma option and press the "space" key
 
 ```bash
 sudo apt install lightdm
+sudo raspi-config
 ```
 
 Then go to System Options, then Boot/Auto Login, and select Desktop, and if prompted, sellect "ssdm", and reboot
