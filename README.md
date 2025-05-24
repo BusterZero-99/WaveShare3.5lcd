@@ -61,7 +61,7 @@ sudo raspi-config nonint do_boot_behaviour B2
 sudo raspi-config nonint do_wayland W1
 ```
 
-# configure touch screen calibration
+# Configure the touch screen calibration
 ```bash
 sudo apt-get install xserver-xorg-input-evdev xinput-calibrator -y
 sudo cp /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/45-evdev.conf
