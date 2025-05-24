@@ -1,6 +1,7 @@
 # WaveShare3.5lcd
 For RasPi 64 Bit Bookworm
-\nBased on setup by Temporarily Offline
+
+Based on setup by Temporarily Offline
 
 ```bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
 sudo unzip ./Waveshare35b-v2.zip -d /boot/overlays
