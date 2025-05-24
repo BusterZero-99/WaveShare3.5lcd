@@ -1,5 +1,6 @@
 # WaveShare3.5lcd
-For RasPi 64 Bit Bookworm
+For RasPi 64 Bit Bookworm 
+# THIS ONLY WORKS IF YOU HAVE THE DEFAULT USERNAME TO BE "pi"
 
 Based on setup by Temporarily Offline
 
