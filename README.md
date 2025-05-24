@@ -5,8 +5,8 @@ For RasPi 64 Bit Bookworm
 Based on setup by Distro Reviews & Temporarily Offline
 
 ```bash
-sudo apt update
-sudo apt upgrade
+sudo aptpget update
+sudo apt-get upgrade
 sudo apt install tasksel
 sudo tasksel
 ```
