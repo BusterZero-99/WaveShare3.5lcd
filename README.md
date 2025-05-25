@@ -1,6 +1,6 @@
 # WaveShare3.5lcd
 For RasPi 64 Bit Bookworm 
-# THIS ONLY WORKS IF YOU HAVE THE DEFAULT USERNAME TO BE "pi"
+# THIS ONLY WORKS IF YOU HAVE THE DEFAULT USERNAME TO BE "pi" and to be running this on Raspberry Pi OS Lite Bookworm
 
 Based on setup by Distro Reviews & Temporarily Offline
 
