@@ -7,7 +7,7 @@ Based on setup by Distro Reviews & Temporarily Offline
 ```bash
 sudo aptpget update
 sudo apt-get upgrade
-sudo apt install tasksel
+sudo apt install tasksel libraraspberryp-dev unzip cmake -y
 sudo tasksel
 ```
 Then go to KDE Plasma option and press the "space" key
@@ -25,7 +25,6 @@ sudo reboot now
 ```
 
 ```bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
-sudo apt install libraraspberryp-dev unzip cmake -y
 sudo unzip ./Waveshare35b-v2.zip -d /boot/overlays
 wget https://files.waveshare.com/upload/1/1e/Rpi-fbcp.zip
 unzip ./Rpi-fbcp.zip
