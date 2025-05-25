@@ -1,4 +1,4 @@
-# KDE Plasma
+# KDE Plasma Setup
 # THIS ONLY WORKS IF THIS IS RUNNING ON Raspberry Pi OS Lite Bookworm 64 Bit
 
 Based on setup by Distro Reviews
