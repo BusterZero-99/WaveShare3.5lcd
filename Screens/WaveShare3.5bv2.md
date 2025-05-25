@@ -1,7 +1,7 @@
 # WaveShare 3.5 inch LCD b v2
 # Requires the default user to be named "pi" and for the OS to be using Bookworm
 
-Based on setup by Distro Reviews & Temporarily Offline
+Based on setup by Temporarily Offline
 ```
 bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
 sudo apt install libraraspberryp-dev unzip cmake -y
