@@ -25,6 +25,7 @@ sudo reboot now
 ```
 
 ```bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
+sudo apt install cmake
 sudo unzip ./Waveshare35b-v2.zip -d /boot/overlays
 wget https://files.waveshare.com/upload/1/1e/Rpi-fbcp.zip
 unzip ./Rpi-fbcp.zip
