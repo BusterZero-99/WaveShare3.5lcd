@@ -5,7 +5,7 @@ For RasPi 64 Bit Bookworm
 Based on setup by Distro Reviews & Temporarily Offline
 
 ```bash
-sudo aptpget update
+sudo apt-get update
 sudo apt-get upgrade
 sudo apt install tasksel libraraspberryp-dev unzip cmake -y
 sudo tasksel
