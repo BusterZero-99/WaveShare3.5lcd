@@ -1,4 +1,9 @@
-```bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
+# WaveShare 3.5 inch LCD b v2
+# Requires the default user to be named "pi"
+
+Based on setup by Distro Reviews & Temporarily Offline
+```
+bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
 sudo apt install libraraspberryp-dev unzip cmake -y
 sudo unzip ./Waveshare35b-v2.zip -d /boot/overlays
 wget https://files.waveshare.com/upload/1/1e/Rpi-fbcp.zip
