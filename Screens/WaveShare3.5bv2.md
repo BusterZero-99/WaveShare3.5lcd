@@ -1,5 +1,5 @@
 # WaveShare 3.5 inch LCD b v2
-# Requires the default user to be named "pi"
+# Requires the default user to be named "pi" and for the OS to be using Bookworm
 
 Based on setup by Distro Reviews & Temporarily Offline
 ```
