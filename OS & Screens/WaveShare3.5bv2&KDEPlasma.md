@@ -7,7 +7,7 @@ Based on setup by Distro Reviews & Temporarily Offline
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt install tasksel libraraspberryp-dev unzip cmake -y
+sudo apt install tasksel libraspberryp-dev unzip cmake -y
 sudo tasksel
 ```
 Then go to KDE Plasma option and press the "space" key
