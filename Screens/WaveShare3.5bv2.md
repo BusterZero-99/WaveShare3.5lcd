@@ -3,6 +3,7 @@
 
 Based on setup by Temporarily Offline
 ```
+sudo apt install libraspberrypi-dev unzip cmake -y
 bash wget https://files.waveshare.com/upload/1/1e/Waveshare35b-v2.zip
 sudo apt install libraraspberryp-dev unzip cmake -y
 sudo unzip ./Waveshare35b-v2.zip -d /boot/overlays
