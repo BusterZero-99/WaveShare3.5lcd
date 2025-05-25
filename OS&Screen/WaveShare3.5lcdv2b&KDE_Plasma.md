@@ -1,4 +1,4 @@
-# WaveShare3.5lcd
+# WaveShare 3.5 lcd b v2
 For RasPi 64 Bit Bookworm 
 # THIS ONLY WORKS IF YOU HAVE THE DEFAULT USERNAME TO BE "pi" and to be running this on Raspberry Pi OS Lite Bookworm
 
