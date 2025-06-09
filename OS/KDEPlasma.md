@@ -1,5 +1,5 @@
 # KDE Plasma Setup
-# THIS ONLY WORKS IF THIS IS RUNNING ON Raspberry Pi OS Lite Bookworm 64 Bit
+# THIS ONLY WORKS IF THIS IS RUNNING ON Raspberry Pi OS Lite Bookworm 64 Bit AND HAS WI-FI ENABLED
 
 Based on setup by Distro Reviews
 
@@ -22,3 +22,4 @@ Then go to System Options, then Boot/Auto Login, and select Desktop, and if prom
 sudo apt purge openresolv dhcpcd5
 sudo reboot now
 ```
+# DO NOT UNDER ANY CIRCUMSTANCES ENABLE AUTOLOGIN, AS IT WOULD BREAK THE SYSTEM
