@@ -6,7 +6,7 @@ Based on setup by Distro Reviews
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt update && sudo apt upgrade -y
-sudo apt install kde-plasma-desktop --no-install-recommends --without-recommends -y
+sudo apt install kde-plasma-desktop --no-install-recommends -y
 ```
 
 ```bash
