@@ -4,15 +4,13 @@
 Based on setup by Distro Reviews
 
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt install tasksel
-sudo tasksel
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt update && sudo apt upgrade -y
+sudo apt install kde-plasma-desktop -y
 ```
-Then go to KDE Plasma option and press the "space" key. If prompted, select "ssdm".
 
 ```bash
-sudo apt install lightdm
+sudo apt install lightdm -y
 sudo raspi-config
 ```
 
@@ -20,6 +18,7 @@ Then go to System Options, then Boot/Auto Login, and select Desktop, and if prom
 
 ```bash
 sudo apt purge openresolv dhcpcd5
+sudo apt purge libreoffice* xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
 sudo reboot now
 ```
 # DO NOT UNDER ANY CIRCUMSTANCES ENABLE AUTOLOGIN, AS IT WOULD BREAK THE SYSTEM
