@@ -17,8 +17,7 @@ sudo raspi-config
 Then go to System Options, then Boot/Auto Login, and select Desktop, and if prompted, select "ssdm", and reboot
 
 ```bash
-sudo apt purge openresolv dhcpcd5
-sudo apt purge libreoffice* xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
+sudo apt purge openresolv dhcpcd5 libreoffice* xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
 sudo reboot now
 ```
 # DO NOT UNDER ANY CIRCUMSTANCES ENABLE AUTOLOGIN, AS IT WOULD BREAK THE SYSTEM
