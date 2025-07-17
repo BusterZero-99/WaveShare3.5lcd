@@ -14,7 +14,7 @@ sudo apt install lightdm -y
 sudo raspi-config
 ```
 
-Then go to System Options, then Boot/Auto Login, and select Desktop, and if prompted, select "ssdm", and reboot
+Then go to System Options, then Boot, and select Desktop, and if prompted, select "ssdm", and reboot
 
 ```bash
 sudo apt purge openresolv dhcpcd5 libreoffice* xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
