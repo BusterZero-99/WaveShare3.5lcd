@@ -16,7 +16,9 @@ sudo raspi-config
 Then go to System Options, then Boot, and select Desktop, and if prompted, select "ssdm", and reboot
 
 ```bash
-sudo apt purge openresolv dhcpcd5 libreoffice* xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
+sudo apt purge openresolv dhcpcd5 xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+sudo apt install lxterminal && ~/pi-apps/manage install epiphany-browser -y
 sudo reboot now
 ```
 # DO NOT UNDER ANY CIRCUMSTANCES ENABLE AUTOLOGIN, AS IT WOULD BREAK THE SYSTEM
