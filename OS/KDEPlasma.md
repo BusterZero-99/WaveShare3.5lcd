@@ -27,11 +27,19 @@ sudo reboot now
 ```
 ```bash
 sudo nano /boot/firmware/config.txt
-
 ```
-Add this line:
+Where it says dtoverlay=vc4-kms-v3d write these:
 ```bash
-dtoverlay=hifiberry-dac
+dtoverlay=vc4-fkms-v3d
+gpu_mem=512
+
+hdmi_group=2
+hdmi_mode=81
+hdmi_drive=2
+config_hdmi_boost=4
+
+disable_overscan=1
+max_framebuffers=2
 ```
 Then
 ```bash
