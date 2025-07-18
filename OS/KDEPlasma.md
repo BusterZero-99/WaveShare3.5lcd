@@ -10,7 +10,6 @@ sudo apt install kde-plasma-desktop -y
 ```
 
 ```bash
-sudo apt install lightdm -y
 sudo raspi-config
 ```
 
