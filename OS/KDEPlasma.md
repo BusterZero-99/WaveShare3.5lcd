@@ -19,6 +19,21 @@ Then go to System Options, then Boot, and select Desktop, and if prompted, selec
 sudo apt purge openresolv dhcpcd5 xterm kate konqueror kmail korganizer kontact akregator kaddressbook -y
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 sudo apt install lxterminal && ~/pi-apps/manage install epiphany-browser -y
+git clone https://github.com/pimoroni/pirate-audio
+cd pirate-audio/mopidy
+sudo ./install.sh
+sudo reboot now
+```
+```bash
+sudo nano /boot/config.txt
+
+```
+Add this line:
+```bash
+dtoverlay=hifiberry-dac
+```
+Then
+```bash
 sudo reboot now
 ```
 # DO NOT UNDER ANY CIRCUMSTANCES ENABLE AUTOLOGIN, AS IT WOULD BREAK THE SYSTEM
