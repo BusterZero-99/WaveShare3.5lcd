@@ -26,7 +26,7 @@ sudo ./install.sh
 sudo reboot now
 ```
 ```bash
-sudo nano /boot/config.txt
+sudo nano /boot/firmware/config.txt
 
 ```
 Add this line:
